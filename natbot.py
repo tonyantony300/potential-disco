@@ -543,7 +543,7 @@ if (
 	__name__ == "__main__"
 ):
 	_crawler = Crawler()
-	openai.api_key = "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"
+	openai.api_key = ""
 
 	def print_help():
 		print(
