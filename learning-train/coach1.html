@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Landing page</title>
+</head>
+<body>
+
+    <h1>Your Course Landing Page</h1>
+    <form action="/get" method="GET">
+        <div>
+        <label for="title">Course Title</label>
+        <input id="title" type="text" required>
+       </div>
+       <div>
+        <label for="enter">Course Description</label>
+        <div>
+        <textarea rows="10" cols="10" id="enter" ></textarea>
+       </div>
+       </div>
+       <div>
+        <label for="level">Skill Level</label>
+        <select id="level">
+            <option value="B">Beginner Level</option>
+            <option value="C">Intermediate Level</option>
+            <option value="E">Expert Level</option>
+        </select>
+    </div>
+    <div>
+       <label for="">Ready to publish the course</label>
+       <input type="checkbox" value="yes">
+    </div>
+       <button>Submit</button>
+    </form>
+</body>
+</html>
